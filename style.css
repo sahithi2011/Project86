@@ -1,0 +1,47 @@
+#display_name_with_commas{
+    border: 1px solid red;
+    padding: 10px;
+    background-color: lightcoral;
+	border-radius: 10px;
+    width: 50%;
+}
+#display_name_with_commas2{
+    border: 1px solid red;
+    padding: 10px;
+    background-color: lightcoral;
+	border-radius: 10px;
+    width: 50%;
+}
+.column{
+    font-size: 20px;
+    font-family: 'Times New Roman' ;}
+
+input{
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    border-radius: 20px;
+} 
+
+
+button{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    background-color: rgb(32, 117, 117);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#display_name_with_commas{
+    height: 50%; 
+    background-color: rgb(235, 203, 162);
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+h1{
+    margin-top: 20px;
+    font-family:'Times New Roman';
+    font-size: 30px;
+}

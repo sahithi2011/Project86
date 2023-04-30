@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>project86</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <style>
+        body{
+            background-image: url("back.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <br><br><br><br><br><br><br>
+        <h1 id="heading">Students Mark Register</h1>
+        <div class="row">
+            <div class="column" ><b>Student Name</b></div>
+            <input type="text" placeholder="Name Of Student" id="name" >
+            <br><br>
+            <div class="column"> <b> Score</b> </div>
+            <input type="text" placeholder="Score Of Student" id="Score" >
+            <br><br>
+            
+        </div>
+
+
+   
+
+        
+
+        <button onclick="submit()" id="Submit_Button" >Add Student Details</button>
+        
+
+       
+        
+        <button id="sortButton" onclick="sort_function()" >Sort Student Details</button>
+      
+
+
+        <button id="sortButton" onclick="clear_function()" >Clear Student Details</button>
+        <hr>
+        <h1 >Display Board</h1>
+
+        <div id="display_name_with_commas" ></div>
+        <br>
+        <br><br>
+        
+        <br>
+        
+    
+        
+        
+        <br>
+        
+    </center>
+
+</body>
